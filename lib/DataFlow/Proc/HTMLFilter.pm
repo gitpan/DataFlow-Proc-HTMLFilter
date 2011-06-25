@@ -5,15 +5,18 @@ use warnings;
 
 # ABSTRACT: A HTML filtering processor
 
-our $VERSION = '1.111761'; # VERSION
+our $VERSION = '1.111762'; # VERSION
 
 use Moose;
 extends 'DataFlow::Proc';
 
 use namespace::autoclean;
-use DataFlow::Types qw(HTMLFilterTypes);
+
 use HTML::TreeBuilder::XPath;
 use MooseX::Aliases;
+use Moose::Util::TypeConstraints 1.01;
+
+enum 'HTMLFilterTypes', [qw(NODE HTML VALUE)];
 
 has 'search_xpath' => (
     'is'       => 'ro',
@@ -89,7 +92,7 @@ DataFlow::Proc::HTMLFilter - A HTML filtering processor
 
 =head1 VERSION
 
-version 1.111761
+version 1.111762
 
 =head1 SYNOPSIS
 

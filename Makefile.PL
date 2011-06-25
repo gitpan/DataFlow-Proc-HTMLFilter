@@ -28,13 +28,13 @@ my %WriteMakefileArgs = (
   'NAME' => 'DataFlow::Proc::HTMLFilter',
   'PREREQ_PM' => {
     'DataFlow::Proc' => '0',
-    'DataFlow::Types' => '0',
     'HTML::TreeBuilder::XPath' => '0',
     'Moose' => '0',
+    'Moose::Util::TypeConstraints' => '1.01',
     'MooseX::Aliases' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '1.111761',
+  'VERSION' => '1.111762',
   'test' => {
     'TESTS' => 't/*.t'
   }

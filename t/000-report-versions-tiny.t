@@ -49,13 +49,13 @@ sub pmver {
 }
 
 eval { $v .= pmver('DataFlow::Proc','any version') };
-eval { $v .= pmver('DataFlow::Types','any version') };
 eval { $v .= pmver('English','any version') };
 eval { $v .= pmver('ExtUtils::MakeMaker','6.30') };
 eval { $v .= pmver('File::Find','any version') };
 eval { $v .= pmver('File::Temp','any version') };
 eval { $v .= pmver('HTML::TreeBuilder::XPath','any version') };
 eval { $v .= pmver('Moose','any version') };
+eval { $v .= pmver('Moose::Util::TypeConstraints','1.01') };
 eval { $v .= pmver('MooseX::Aliases','any version') };
 eval { $v .= pmver('Test::More','0.88') };
 eval { $v .= pmver('Test::UseAllModules','any version') };

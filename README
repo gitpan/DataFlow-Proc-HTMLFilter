@@ -2,7 +2,7 @@ NAME
     DataFlow::Proc::HTMLFilter - A HTML filtering processor
 
 VERSION
-    version 1.111761
+    version 1.111762
 
 SYNOPSIS
         use DataFlow::Proc::HTMLFilter;
