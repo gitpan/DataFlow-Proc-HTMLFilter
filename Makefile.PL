@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     'MooseX::Aliases' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '1.111762',
+  'VERSION' => '1.111810',
   'test' => {
     'TESTS' => 't/*.t'
   }

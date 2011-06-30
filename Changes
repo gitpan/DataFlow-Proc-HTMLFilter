@@ -1,8 +1,16 @@
 Revision History for DataFlow-Proc-HTMLFilter
 =============================================
 
-1.111762
+1.111810
 --------
+
+commit 0ed13844c4c8552ec9db6034307ead827ef41d7f
+Author: Alexei Znamensky <russoz@cpan.org>
+
+    using Moose "builder" rather than "default" (almost everywhere)
+
+v1.111762 2011-06-25
+--------------------
 
 commit b67e819a7ed0aa510c8e3449c96c76c19b3f8ec9
 Author: Alexei Znamensky <russoz@cpan.org>
