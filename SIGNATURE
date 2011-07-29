@@ -14,49 +14,49 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 a6931c613572f8d97b3901a1f32bf1556be13644 Changes
+SHA1 7a91ebab8b14dac412f276d1d24ee374294e8bbf Changes
 SHA1 ad33152a6ac02e17e870ab820edd445dda93c16a INSTALL
 SHA1 06abad21694ddb03c0fd03ba52d6d652ca43856e LICENSE
 SHA1 ea77b542916dd14cb9aa0d29a6ead5236e49a05d MANIFEST
-SHA1 27f270abeaf17b8392dea7a304d685b61d282c1d META.json
-SHA1 0e94a558acb506ffdb35e2e629c984de152cf2f2 META.yml
-SHA1 9b2a9b7befd3a35e8b4f063bed4dc15505968c5b Makefile.PL
-SHA1 a9e1634743681c62238eca2517d2210b4da9c486 README
-SHA1 0f6d602ffcc9b0d465eec4f89a4e6f66a4c15180 dist.ini
-SHA1 dd8d32643b53464e3bc82b4367be74a6eb6d3075 lib/DataFlow/Proc/HTMLFilter.pm
-SHA1 ca41ffd5806caaf9da5dceea1320ae662780e9fc t/00-compile.t
-SHA1 9675e47749091f26cecf907ec018361f5e6ef10a t/00-load.t
-SHA1 2056245255bb0b3518e90cb90f5413a0a644147d t/000-report-versions-tiny.t
-SHA1 ede788e6b53974a7b46fcb25c466028d4ae2d2bb t/64-htmlfilter.t
-SHA1 fa45d6e6ab1cd421349dea4ef527bfd5cdc8a09e t/author-critic.t
-SHA1 87768d177f8c2e2df9c591cde869e7c8a245555e t/release-dist-manifest.t
-SHA1 bf8570ef6888d79ca6a0c9e21b206b904b0775e2 t/release-distmeta.t
-SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
-SHA1 961a1e2c92d836c8cad2d34b784cbc75345dec63 t/release-kwalitee.t
-SHA1 6bf1766bfb8d47dccad1fc80c6ea867a3dd7ad1f t/release-meta-json.t
-SHA1 54ed25287b7e1c9ff328eaf126d438438c8a1d48 t/release-minimum-version.t
-SHA1 8556b1e3dda0d4c71ce3ab34261c4f80a585e56c t/release-mojibake.t
-SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
-SHA1 9433c240fe590bc404ab68ff63984df763e347ed t/release-pod-coverage.t
-SHA1 4f2933df3566db6f337817aa885889deb213960b t/release-pod-linkcheck.t
-SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
-SHA1 3bb783b8a31b5eaff916bcb8bf7b348ee340ecb5 t/release-portability.t
-SHA1 13308c6d118988d59e1c257d3179b839c549ff12 t/release-test-version.t
-SHA1 d7221447937ab93002a123801def7be09748c106 t/release-unused-vars.t
+SHA1 0f3e8c556ca6f3925d30b8a0ed2ff4868b33713b META.json
+SHA1 a4459ecd14753ce059aea3467d74dd3290c3b9b3 META.yml
+SHA1 c858cd733253334846df29f10f24fcfa3e2a5a95 Makefile.PL
+SHA1 27fbb1a13a1d25d1f7c0f006b041a688a6373e5f README
+SHA1 d5f890196ebde969d0717e3c91021a1ad9d7d8c3 dist.ini
+SHA1 681fd74ce26abb7eb85ef96d9bd13968fa012d10 lib/DataFlow/Proc/HTMLFilter.pm
+SHA1 dd729107f22582796aa0af9acb0f1e975f2251a5 t/00-compile.t
+SHA1 86cd488198ef1835477613f6a2256994986660aa t/00-load.t
+SHA1 3302821c0a9f64c9569d2dff648bcdefb2ee9f12 t/000-report-versions-tiny.t
+SHA1 4cf28d4930e266135c731203aec05f9ca21a455c t/64-htmlfilter.t
+SHA1 f214de96cfe8b70da71201ab8859bb32cbdafe1d t/author-critic.t
+SHA1 48d42cc9f55d5ce8ae812dab536a9d17f1c3f98d t/release-dist-manifest.t
+SHA1 9e4c697537049f3151d38c81d5080be36b600771 t/release-distmeta.t
+SHA1 52f8153d160cb76d2ba52d0a9c8e8dff928145ee t/release-eol.t
+SHA1 083d9cf27e0bc6a123241fb0a361a2c029983b0c t/release-kwalitee.t
+SHA1 d10a4c4f4a6c10595f86bd7acf935ae72354f8d0 t/release-meta-json.t
+SHA1 978fcdcd038d17814e4a2429f19795a77894f1a1 t/release-minimum-version.t
+SHA1 b567cfd8c64cdcda2a465f38a1dc2fd971904ee4 t/release-mojibake.t
+SHA1 a95be7f18c2443b36947e6a2888ff14742899350 t/release-no-tabs.t
+SHA1 ecd6305379975ecc5ce20f4c3e76bfcfe462e2d4 t/release-pod-coverage.t
+SHA1 c3bec8aa8475c5ec46a0bad17a20d44d4ea1b1b8 t/release-pod-linkcheck.t
+SHA1 7eb3492f9c47f10f80d4f285e96536e9192026dc t/release-pod-syntax.t
+SHA1 4bca0ddd8e339fe70776a13cb4551864fbe09797 t/release-portability.t
+SHA1 dd1999e108eb2093fa41692a0a72b4b84ce8ef4e t/release-test-version.t
+SHA1 731040bf250fd7f91217bde7998666bc60ca8e90 t/release-unused-vars.t
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.10 (GNU/Linux)
 
-iQIcBAEBAgAGBQJOC8+vAAoJEMZvtcdxyp88dHcP/1KoAn0qiIezk/CvK+oomxt+
-XrpBrWWHMHeUT5uZP7qioZ5u3GAfXLqRz3gy1g3Tr247mERvUiZah2OhjQxzUqF9
-fxBDK95AmBhXSX+IxGGWRZOY4Cf3DcjOD9N3Iv7Bblb1f0h02VYmEPz0Y/Zltq8a
-Ah/nnK6Ij60T3BAhPXKRWiEmUirLSkGhPl0SaAyj056WV88nqQV9mskmbtqZF9OW
-cs+75uCzBGD9+uZrDw3dKmrmEXunBBp8MB4Y1vprsKV0BGQ1dRsdZGug1t9uDaPE
-sQNvAHJg0kOY7y+/FHwT2PIXfo0PTrA8MLlfsz3CbNW+4zSR1kGsGSK4jk9NSQR8
-GInUT0wfHQLpC0nIx0GAjubZ7hwRLdjnuKTZHAA6TGs38gSmWCJD0j6pjkw7WEW6
-0SF0a2XgfaXTlT/MlaS4XvAxFbiVgkA4rSB+xnQw60kL4S4B7Tyi0XFKWCR1cFPK
-2AtUcaq/GdKXYYgs5EabYxvG5wfPnEVT3nXHE7qs20Llrc4Fm0s4vj0V00hVY4NJ
-4m1pAqYRctFNMrT1NnQMH47HY5gM6c1kCa2swR8TWNumdA6rdQZcG3I4JUly2M3O
-YL8iarJdhi4xabTcIx8///FcQXfv479K20utVqotlRmHRkSrgshf93FN4f1Gbe/m
-A7GlJbn4lI2DpCjx129M
-=F/Y6
+iQIcBAEBAgAGBQJOMf8QAAoJEMZvtcdxyp88WUkP/2YXwms7mq00UllUb5Utd/r2
+uge4AT48flsNQXUPrfaleFCXOjJoE11M4lh6erY5jdUF//kJiS5T29uspBxVaYM8
+VF2hRRgXAoZ2qNj3HwdtpGWkQHl35fmNd7kdIQcvrWx8sNX8Y7vO5irKUjQzw2VQ
+oWwgfBEhfXU+6MBOXWamej8PzPLe0L1D1c18gnKFPISxzFMiiNM6GlVPLvdMA3Kk
+anu/4wjwQ3rsfrEz1K44bM3ad+Vd/WNaFvbgs5qgzXG6CT7Zv+voSuHjuL6UjZAm
+XRK85/0zT2qKjsoVowbPvDqsI6Bzr0sPYdJyCOgAXketDJb23jcq66h/Bt+4pJkB
+XwuOXm2Rvl6Pddh8KisCpF9upuWU8JEp34P/YFRO//zyqtwtul3wzYqanpY4VJuM
+yxpDtBEKGVZ0Zz6a6cqgjrMenGgsvWUV7MbdO7I6Dlib4lW3EEaGi3ZCHLsY00VO
+KOgD9KRlN1wwUyCn83EWe/rPqz11GkFMdzjI66YMIRs85MDN3RP1FkCOkyp/T+lH
+tQRZeq8cauB8Ccdav+VAdkTfztWCQofWuj1JMjQTpU0l0+ky1UmlRLr5qJOUK0zT
+sc6ARW4TSvXibb4AaxUKGyG3QthcRM6W5Y++0683NaPUJ9uQ+2GbFMWxYUDDUiI3
+3NARnORVR04IT4el855b
+=KAst
 -----END PGP SIGNATURE-----

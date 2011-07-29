@@ -57,4 +57,3 @@ is( scalar @{ $res3[0] }, 3, 'result has the right size' );
 is_deeply( $res3[0], [qw/A B C/], 'produces the expected result' );
 
 # TODO: add tests to check the 'nochomp' option
-

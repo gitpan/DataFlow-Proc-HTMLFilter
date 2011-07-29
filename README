@@ -2,7 +2,7 @@ NAME
     DataFlow::Proc::HTMLFilter - A HTML filtering processor
 
 VERSION
-    version 1.111810
+    version 1.112100
 
 SYNOPSIS
         use DataFlow::Proc::HTMLFilter;
@@ -46,14 +46,17 @@ ATTRIBUTES
     This attribute is a string, but its value must be one of: "HTML",
     "VALUE", "NODE". The default is "HTML".
 
-    HTML
+    *   HTML
+
         The result will be the HTML content specified by "search_xpath".
 
-    VALUE
+    *   VALUE
+
         The result will be the literal value enclosed by the tag and/or
         attribute specified by "search_xpath".
 
-    NODE
+    *   NODE
+
         The result will be a list of HTML::Element objects, as returned by
         the "findnodes" method of HTML::TreeBuilder::XPath class.
 
@@ -159,9 +162,9 @@ SUPPORT
     contribute patches, please send me a diff or prod me to pull from your
     repository :)
 
-    <http://github.com/russoz/DataFlow-Proc-HTMLFilter>
+    <https://github.com/russoz/DataFlow-Proc-HTMLFilter>
 
-      git clone http://github.com/russoz/DataFlow-Proc-HTMLFilter
+      git clone https://github.com/russoz/DataFlow-Proc-HTMLFilter
 
 AUTHOR
     Alexei Znamensky <russoz@cpan.org>

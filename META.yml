@@ -12,13 +12,14 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.200008, CPAN::Meta::Converter version 2.110930'
+generated_by: 'Dist::Zilla version 4.200012, CPAN::Meta::Converter version 2.110930001'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: 1.4
 name: DataFlow-Proc-HTMLFilter
 requires:
+  DataFlow: 1.112100
   DataFlow::Proc: 0
   HTML::TreeBuilder::XPath: 0
   Moose: 0
@@ -26,6 +27,6 @@ requires:
   MooseX::Aliases: 0
   namespace::autoclean: 0
 resources:
-  homepage: http://github.com/russoz/DataFlow-Proc-HTMLFilter
-  repository: http://github.com/russoz/DataFlow-Proc-HTMLFilter
-version: 1.111810
+  homepage: https://github.com/russoz/DataFlow-Proc-HTMLFilter
+  repository: https://github.com/russoz/DataFlow-Proc-HTMLFilter
+version: 1.112100

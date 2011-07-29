@@ -5,7 +5,7 @@ use warnings;
 
 # ABSTRACT: A HTML filtering processor
 
-our $VERSION = '1.111810'; # VERSION
+our $VERSION = '1.112100';    # VERSION
 
 use Moose;
 extends 'DataFlow::Proc';
@@ -88,7 +88,7 @@ DataFlow::Proc::HTMLFilter - A HTML filtering processor
 
 =head1 VERSION
 
-version 1.111810
+version 1.112100
 
 =head1 SYNOPSIS
 
@@ -137,18 +137,24 @@ The C<search_xpath> attribute is mandatory.
 This attribute is a string, but its value B<must> be one of:
 C<HTML>, C<VALUE>, C<NODE>. The default is C<HTML>.
 
-=over
+=over 4
 
-=item HTML
+=item *
+
+HTML
 
 The result will be the HTML content specified by C<search_xpath>.
 
-=item VALUE
+=item *
+
+VALUE
 
 The result will be the literal value enclosed by the tag and/or attribute
 specified by C<search_xpath>.
 
-=item NODE
+=item *
+
+NODE
 
 The result will be a list of L<HTML::Element> objects, as returned by the
 C<findnodes> method of L<HTML::TreeBuilder::XPath> class.
@@ -279,9 +285,9 @@ The code is open to the world, and available for you to hack on. Please feel fre
 with it, or whatever. If you want to contribute patches, please send me a diff or prod me to pull
 from your repository :)
 
-L<http://github.com/russoz/DataFlow-Proc-HTMLFilter>
+L<https://github.com/russoz/DataFlow-Proc-HTMLFilter>
 
-  git clone http://github.com/russoz/DataFlow-Proc-HTMLFilter
+  git clone https://github.com/russoz/DataFlow-Proc-HTMLFilter
 
 =head1 AUTHOR
 
@@ -328,5 +334,4 @@ DAMAGES.
 
 
 __END__
-
 

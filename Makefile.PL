@@ -27,6 +27,7 @@ my %WriteMakefileArgs = (
   'LICENSE' => 'perl',
   'NAME' => 'DataFlow::Proc::HTMLFilter',
   'PREREQ_PM' => {
+    'DataFlow' => '1.112100',
     'DataFlow::Proc' => '0',
     'HTML::TreeBuilder::XPath' => '0',
     'Moose' => '0',
@@ -34,7 +35,7 @@ my %WriteMakefileArgs = (
     'MooseX::Aliases' => '0',
     'namespace::autoclean' => '0'
   },
-  'VERSION' => '1.111810',
+  'VERSION' => '1.112100',
   'test' => {
     'TESTS' => 't/*.t'
   }
